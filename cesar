@@ -1,0 +1,7 @@
+/****** Script for SelectTopNRows command from SSMS  ******/
+SELECT TOP (1000) [nom_prod]
+      ,[fab_prod]
+      ,[precio]
+      ,[stock]
+      ,[ubicacion]
+  FROM [BDFARMACIA CONSTITUYENTE].[dbo].[producto]
